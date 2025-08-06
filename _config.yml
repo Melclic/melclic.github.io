@@ -44,7 +44,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: /images/profile.jpg
+about_profile_image: /images/mel_profile_img.jpg
 about_content: | # this will include new lines to allow paragraphs
   I'm a computational biologist with a background in both wet lab. I started out at the bench, but quickly became fascinated by how much can be uncovered using computational tools. I love exploring complex biological problems and finding creative, data-driven solutions through modeling and simulation.
 
