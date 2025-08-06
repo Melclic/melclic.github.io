@@ -46,7 +46,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: /images/mel_profile_img.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a computational biologist with a background in both wet lab. I started out at the bench, but quickly became fascinated by how much can be uncovered using computational tools. I love exploring complex biological problems and finding creative, data-driven solutions through modeling and simulation.
+  I'm a computational biologist with a background in the wet lab. I started out at the bench, but quickly became fascinated by how much can be uncovered using computational tools. I love exploring complex biological problems and finding creative, data-driven solutions through modeling and simulation.
 
 content:
   - title: Projects
@@ -69,6 +69,21 @@ content:
 
       - layout: left
         border: weak
+        title: GalaxySynBioCAD
+        link: https://github.com/Melclic/metaxime
+        additional_links:
+          - title: MetaXime
+            icon: fab fa-github
+            url: https://github.com/Melclic/metaxime
+        description: | 
+          {:refdef: style="text-align: center;"}
+          ![intersectomics](/images/metaxime_search_smiles.png){: width="550" }
+          {: refdef}
+
+          Galaxy workflow developped during my postdoc project to predict heterologous metabolic pathway in a strain of interest
+
+      - layout: left
+        border: weak
         title: MetaXime
         link: https://github.com/Melclic/metaxime
         additional_links:
@@ -80,7 +95,7 @@ content:
           ![intersectomics](/images/metaxime_search_smiles.png){: width="550" }
           {: refdef}
 
-          Predict heterologous metabolic pathways to produce a compound of interest in a strain of interest
+          All in one platform to predict heterologous metabolic pathways to produce a compound of interest in a strain of interest
 
 # Footer
 footer_show_references: false
