@@ -65,22 +65,7 @@ content:
           ![intersectomics](/images/intersectomics.png){: width="350" }
           {: refdef}
 
-          Method to analyze multi-omics datasets time series (or multiple condition) and uncover similarly behaving groups of biomoelcules
-
-      - layout: left
-        border: weak
-        title: GalaxySynBioCAD
-        link: https://github.com/Melclic/metaxime
-        additional_links:
-          - title: MetaXime
-            icon: fab fa-github
-            url: https://github.com/Melclic/metaxime
-        description: | 
-          {:refdef: style="text-align: center;"}
-          ![intersectomics](/images/metaxime_search_smiles.png){: width="550" }
-          {: refdef}
-
-          Galaxy workflow developped during my postdoc project to predict heterologous metabolic pathway in a strain of interest
+          Method to analyze multi-omics datasets time series (or multiple condition) with replicates and uncover similarly behaving groups of biomoelcules
 
       - layout: left
         border: weak
@@ -96,6 +81,31 @@ content:
           {: refdef}
 
           All in one platform to predict heterologous metabolic pathways to produce a compound of interest in a strain of interest
+
+  - title: Research Projects
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: GalaxySynBioCAD
+        link: https://galaxy-synbiocad.org/
+        description: | 
+          {:refdef: style="text-align: center;"}
+          ![intersectomics](/images/synbiocad_id.png){: width="350" }
+          {: refdef}
+
+          Galaxy workflow developped during my postdoc project to predict heterologous metabolic pathway in a strain of interest
+
+      - layout: left
+        border: weak
+        title: RetroRules
+        link: https://retrorules.org/
+        description: | 
+          {:refdef: style="text-align: center;"}
+          ![intersectomics](/images/retrorules.png){: width="350" }
+          {: refdef}
+
+          Database of reaction rules for retrosynthesis
 
 # Footer
 footer_show_references: false
