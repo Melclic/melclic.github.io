@@ -14,21 +14,21 @@ title: Computational Biologist
 darkmode: false
 
 # Social links
-github_username: https://github.com/melclic
+github_username: melclic
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: https://www.linkedin.com/in/melchior-du-lac-b12123145/
+linkedin_username: melchior-du-lac-b12123145
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
-orcid_username: https://orcid.org/0000-0002-9984-4689
+orcid_username: 0000-0002-9984-4689
 
 # Additional icon links
-additional_links:
+# additional_links:
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
@@ -46,14 +46,14 @@ additional_links:
 # about_title: About Me
 about_profile_image: /images/mel_profile_img.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a computational biologist with a background in the wet lab. I started out at the bench, but quickly became fascinated by how much can be uncovered using computational tools. I love exploring complex biological problems and finding creative, data-driven solutions through modeling and simulation.
+  I'm a computational biologist with a background in the wet lab that quickly became fascinated by how powerful computational tools applied to biology can be. I love exploring complex biological problems and finding creative, data-driven solutions through modeling and simulation.
 
 content:
-  - title: Projects
+  - title: Personal Projects
     layout: list
     content:
       - layout: left
-        border: weak
+        border: none
         title: IntersectOmics 
         link: https://github.com/Melclic/intersectomics
         additional_links:
@@ -68,7 +68,7 @@ content:
           Method to analyze multi-omics datasets time series (or multiple condition) with replicates and uncover similarly behaving groups of biomoelcules
 
       - layout: left
-        border: weak
+        border: none
         title: MetaXime
         link: https://github.com/Melclic/metaxime
         additional_links:
@@ -82,11 +82,26 @@ content:
 
           All in one platform to predict heterologous metabolic pathways to produce a compound of interest in a strain of interest
 
+      - layout: left
+        border: none
+        title: HMG
+        link: https://github.com/Melclic/HMG
+        additional_links:
+          - title: HMG
+            icon: fab fa-github
+            url: https://github.com/Melclic/HMG
+        description: | 
+          {:refdef: style="text-align: center;"}
+          ![intersectomics](/images/hmg_img.jpeg){: width="550" }
+          {: refdef}
+
+          Agent based model of the bacterial cell cycle
+
   - title: Research Projects
     layout: list
     content:
       - layout: left
-        border: weak
+        border: none
         title: GalaxySynBioCAD
         link: https://galaxy-synbiocad.org/
         description: | 
@@ -97,7 +112,7 @@ content:
           Galaxy workflow developped during my postdoc project to predict heterologous metabolic pathway in a strain of interest
 
       - layout: left
-        border: weak
+        border: none
         title: RetroRules
         link: https://retrorules.org/
         description: | 
@@ -106,6 +121,17 @@ content:
           {: refdef}
 
           Database of reaction rules for retrosynthesis
+
+  - title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      [Du Lac, M., Scarpelli, A., Younger, A., Bates, D., & Leonard, J. (2017). Predicting the dynamics and heterogeneity of genomic DNA content within bacterial populations across variable growth regimes. ACS synthetic biology, 6(7), 1131–1139.](https://pubs.acs.org/doi/full/10.1021/acssynbio.5b00217)
+
+      [Herisson, J., Duigou, T., Du Lac, M., Bazi-Kabbaj, K., Sabeti Azad, M., Buldum, G., Telle, O., El Moubayed, Y., Carbonell, P., Swainston, N., & others (2022). The automated Galaxy-SynBioCAD pipeline for synthetic biology design and engineering. Nature Communications, 13(1), 5082.](https://www.nature.com/articles/s41467-022-32661-x)
+
+      [Duigou, T., Du Lac, M., Carbonell, P., & Faulon, J.L. (2019). RetroRules: a database of reaction rules for engineering biology. Nucleic acids research, 47(D1), D1229–D1235.](https://academic.oup.com/nar/article/47/D1/D1229/5128930)
+
+      [Du Lac, Melchior (2017) Modelling and simulation of heterogeneous growth dynamics in bacterial populations using a novel multiphasic growth method. PhD thesis, University of Warwick.](https://wrap.warwick.ac.uk/id/eprint/100879/)
 
 # Footer
 footer_show_references: false
