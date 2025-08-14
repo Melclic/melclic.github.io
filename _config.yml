@@ -54,7 +54,7 @@ content:
     content:
       - layout: left
         border: none
-        title: IntersectOmics 
+        title: BioPathOpt
         link: https://github.com/Melclic/BioPathOpt
         additional_links:
           - title: BioPathOpt
@@ -80,7 +80,7 @@ content:
           ![intersectomics](/images/intersectomics.png){: width="350" }
           {: refdef}
 
-          Method to analyze multi-omics datasets time series (or multiple condition) with replicates and uncover similarly behaving groups of biomoelcules
+          Method to analyze multi-omics datasets time series (or multiple conditions) with replicates and uncover similarly behaving groups of biomoelcules
 
       - layout: left
         border: none
