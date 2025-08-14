@@ -55,6 +55,21 @@ content:
       - layout: left
         border: none
         title: IntersectOmics 
+        link: https://github.com/Melclic/BioPathOpt
+        additional_links:
+          - title: BioPathOpt
+            icon: fab fa-github
+            url: https://github.com/Melclic/BioPathOpt
+        description: | 
+          {:refdef: style="text-align: center;"}
+          ![biopathopt](/images/biopathopt.png){: width="350" }
+          {: refdef}
+
+          Unified framework to leverage stoichiometric models for metabolic engineering. Includes target optimization through knockout, overexpression and enzyme constrained modelling
+
+      - layout: left
+        border: none
+        title: IntersectOmics 
         link: https://github.com/Melclic/intersectomics
         additional_links:
           - title: IntersectOmics
