@@ -110,7 +110,7 @@ content:
           ![intersectomics](/images/hmg_img.jpeg){: width="550" }
           {: refdef}
 
-          Agent based model of the bacterial cell cycle
+          Agent based model of the bacterial cell cycle to track chromosomal content over different growth conditions
 
   - title: Research Projects
     layout: list
