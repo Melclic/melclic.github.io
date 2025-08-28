@@ -62,7 +62,7 @@ content:
             url: https://github.com/Melclic/BioPathOpt
         description: | 
           {:refdef: style="text-align: center;"}
-          ![biopathopt](/images/biopathopt.png){: width="350" }
+          ![biopathopt](/images/biopathopt.png){: width="550" }
           {: refdef}
 
           Unified framework to leverage stoichiometric models for metabolic engineering. Includes target optimization through knockout, overexpression and enzyme constrained modelling
